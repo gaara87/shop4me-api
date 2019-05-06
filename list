@@ -1,1 +1,94 @@
-{"profiles":"{\n    \"profiles\": [\n        {\n            \"fullName\": \"Andrew Nguyen\",\n            \"shoeType\": 1,\n            \"gender\": 1,\n            \"sizeShoe\": 11,\n            \"dob\": 8234068,\n            \"brands\": [\n                \"Nike\",\n                \"Cole Haan\"\n            ],\n            \"interests\": [\n                \"Basketball\",\n                \"Rager nights\"\n            ],\n            \"updatedSeconds\": 25811996\n        },\n        {\n            \"fullName\": \"Kristen Nguyen\",\n            \"shoeType\": 2,\n            \"gender\": 2,\n            \"sizeShoe\": 6,\n            \"dob\": 8234068,\n            \"brands\": [\n                \"Adidas\",\n                \"Cole Haan\"\n            ],\n            \"interests\": [\n                \"The better partier\"\n            ],\n            \"updatedSeconds\": 25811996\n        },\n        {\n            \"fullName\": \"Ethan Nguyen\",\n            \"shoeType\": 3,\n            \"gender\": 3,\n            \"sizeShoe\": 6,\n            \"dob\": 8234068,\n            \"brands\": [\n                \"New Balance\",\n                \"Nike Kids\"\n            ],\n            \"interests\": [\n                \"Will not go to sleep\"\n            ],\n            \"updatedSeconds\": 25811996\n        },\n        {\n            \"fullName\": \"Aidan Nguyen\",\n            \"shoeType\": 3,\n            \"gender\": 3,\n            \"sizeShoe\": 8,\n            \"dob\": 8234068,\n            \"brands\": [\n                \"Nike\",\n                \"Adidas\"\n            ],\n            \"interests\": [\n                \"Building and breaking\"\n            ],\n            \"updatedSeconds\": 25811996\n        },\n        {\n            \"fullName\": \"Declan Nguyen\",\n            \"shoeType\": 4,\n            \"gender\": 3,\n            \"sizeShoe\": 5,\n            \"dob\": 8234068,\n            \"brands\": [\n                \"Vans\"\n            ],\n            \"interests\": [\n                \"Solving puzzles\"\n            ],\n            \"updatedSeconds\": 25811996\n        },\n        {\n            \"fullName\": \"Laken Nguyen\",\n            \"shoeType\": 5,\n            \"gender\": 4,\n            \"sizeShoe\": 3,\n            \"dob\": 8234068,\n            \"brands\": [\n                \"Sperry kids\"\n            ],\n            \"interests\": [\n                \"Crying\",\n                \"Giggling\"\n            ],\n            \"updatedSeconds\": 25811996\n        }\n    ]\n}\n"}
+{
+    "profiles": [
+        {
+            "fullName": "Andrew Nguyen",
+            "shoeType": 1,
+            "gender": 1,
+            "sizeShoe": 11,
+            "dob": 8234068,
+            "brands": [
+                "Nike",
+                "Cole Haan"
+            ],
+            "interests": [
+                "Basketball",
+                "Rager nights"
+            ],
+            "updatedSeconds": 25811996
+        },
+        {
+            "fullName": "Kristen Nguyen",
+            "shoeType": 2,
+            "gender": 2,
+            "sizeShoe": 6,
+            "dob": 8234068,
+            "brands": [
+                "Adidas",
+                "Cole Haan"
+            ],
+            "interests": [
+                "The better partier"
+            ],
+            "updatedSeconds": 25811996
+        },
+        {
+            "fullName": "Ethan Nguyen",
+            "shoeType": 3,
+            "gender": 3,
+            "sizeShoe": 6,
+            "dob": 8234068,
+            "brands": [
+                "New Balance",
+                "Nike Kids"
+            ],
+            "interests": [
+                "Will not go to sleep"
+            ],
+            "updatedSeconds": 25811996
+        },
+        {
+            "fullName": "Aidan Nguyen",
+            "shoeType": 3,
+            "gender": 3,
+            "sizeShoe": 8,
+            "dob": 8234068,
+            "brands": [
+                "Nike",
+                "Adidas"
+            ],
+            "interests": [
+                "Building and breaking"
+            ],
+            "updatedSeconds": 25811996
+        },
+        {
+            "fullName": "Declan Nguyen",
+            "shoeType": 4,
+            "gender": 3,
+            "sizeShoe": 5,
+            "dob": 8234068,
+            "brands": [
+                "Vans"
+            ],
+            "interests": [
+                "Solving puzzles"
+            ],
+            "updatedSeconds": 25811996
+        },
+        {
+            "fullName": "Laken Nguyen",
+            "shoeType": 5,
+            "gender": 4,
+            "sizeShoe": 3,
+            "dob": 8234068,
+            "brands": [
+                "Sperry kids"
+            ],
+            "interests": [
+                "Crying",
+                "Giggling"
+            ],
+            "updatedSeconds": 25811996
+        }
+    ]
+}

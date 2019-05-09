@@ -1,5 +1,4 @@
-{
-    "profiles": [
+[
         {
             "fullName": "Andrew Nguyen",
             "shoeType": 1,
@@ -91,4 +90,3 @@
             "updatedSeconds": 25811996
         }
     ]
-}

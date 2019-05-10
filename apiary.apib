@@ -1,0 +1,156 @@
+FORMAT: 1A
+HOST: http://shop4me.apiblueprint.org/
+
+# shop4me
+
+## Profiles [/list]
+
+### Get all your saved profiles [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id":1,
+                "fullName": "Andrew Nguyen",
+                "shoeType": 1,
+                "gender": 1,
+                "sizeShoe": 11,
+                "dob": 8234068,
+                "brands": [
+                    "Nike",
+                    "Cole Haan"
+                ],
+                "interests": [
+                    "Basketball",
+                    "Rager nights"
+                ],
+                "updatedSeconds": 25811996
+            },
+            {
+            "id":2,
+                "fullName": "Kristen Nguyen",
+                "shoeType": 2,
+                "gender": 2,
+                "sizeShoe": 6,
+                "dob": 8234068,
+                "brands": [
+                    "Adidas",
+                    "Cole Haan"
+                ],
+                "interests": [
+                    "The better partier"
+                ],
+                "updatedSeconds": 25811996
+            },
+            {
+            "id":3,
+                "fullName": "Ethan Nguyen",
+                "shoeType": 3,
+                "gender": 3,
+                "sizeShoe": 6,
+                "dob": 8234068,
+                "brands": [
+                    "New Balance",
+                    "Nike Kids"
+                ],
+                "interests": [
+                    "Will not go to sleep"
+                ],
+                "updatedSeconds": 25811996
+            },
+            {
+            "id":4,
+                "fullName": "Aidan Nguyen",
+                "shoeType": 3,
+                "gender": 3,
+                "sizeShoe": 8,
+                "dob": 8234068,
+                "brands": [
+                    "Nike",
+                    "Adidas"
+                ],
+                "interests": [
+                    "Building and breaking"
+                ],
+                "updatedSeconds": 25811996
+            },
+            {
+            "id":5,
+                "fullName": "Declan Nguyen",
+                "shoeType": 4,
+                "gender": 3,
+                "sizeShoe": 5,
+                "dob": 8234068,
+                "brands": [
+                    "Vans"
+                ],
+                "interests": [
+                    "Solving puzzles"
+                ],
+                "updatedSeconds": 25811996
+            },
+            {
+            "id":6,
+                "fullName": "Laken Nguyen",
+                "shoeType": 5,
+                "gender": 4,
+                "sizeShoe": 3,
+                "dob": 8234068,
+                "brands": [
+                    "Sperry kids"
+                ],
+                "interests": [
+                    "Crying",
+                    "Giggling"
+                ],
+                "updatedSeconds": 25811996
+            }
+        ]
+        
+## Profile [/profile]
+
+### Save profile [POST]
+
+If submit without an id, then it creates a new one, else it updates existing values
+
++ Request (application/json)
+
+        {
+            "fullName": "Akash R",
+            "shoeType": 1,
+            "gender": 1,
+            "sizeShoe": 10,
+            "dob": 8234068,
+            "brands": [
+                "Adidas"
+            ],
+            "interests": [
+                "Eat",
+                "Sleep",
+                "Rave",
+                "Repeat"
+            ],
+            "updatedSeconds": 25811996
+        }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            "id":7,
+                "fullName": "Laken Nguyen",
+                "shoeType": 5,
+                "gender": 4,
+                "sizeShoe": 3,
+                "dob": 8234068,
+                "brands": [
+                    "Sperry kids"
+                ],
+                "interests": [
+                    "Crying",
+                    "Giggling"
+                ],
+                "updatedSeconds": 25811996
+            }
